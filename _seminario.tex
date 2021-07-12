@@ -1,0 +1,388 @@
+\documentclass[sigconf]{acmart}
+
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    \normalfont B\kern-0.5em{\scshape i\kern-0.25em b}\kern-0.8em\TeX}}}
+
+\acmConference[Seminário de Andamento]{}{Mês Ano}{PPGCC, Escola Politécnica, PUCRS}
+
+%% Citações e Referências são numeradas por padrão. 
+%% Mas caso queira optar pelo estilo ``author year'', descomente a linha a seguir:
+%\citestyle{acmauthoryear}
+
+%%
+%% final do preamble, início do corpo do texto.
+\begin{document}
+
+%%
+%% Título do trabalho
+\title{Título do Trabalho}
+
+%%
+%% Nome do discente, orientador(a) e co-orientador (se houver)
+\author{Nome Discente}
+\email{nomediscente@edu.pucrs.br}
+\affiliation{%
+  \institution{PPGCC - Escola Politécnica - PUCRS}
+  \city{Porto Alegre}
+  \state{RS}
+  \country{Brasil}
+}
+
+\author{Nome Orientador(a)}
+\email{nomeorientara@pucrs.br}
+\affiliation{%
+  \institution{PPGCC - Escola Politécnica - PUCRS}
+  \city{Porto Alegre}
+  \state{RS}
+  \country{Brasil}
+}
+
+% Se houver:
+\author{Nome Co-Orientador(a)}
+\email{nomecoorientara@pucrs.br}
+\affiliation{%
+  \institution{PPGCC - Escola Politécnica - PUCRS}
+  \city{Porto Alegre}
+  \state{RS}
+  \country{Brasil}
+}
+
+%% Shortauthors
+\renewcommand{\shortauthors}{Nome Discente}
+
+%% Abstract
+\begin{abstract}
+Para mais informações sobre o SA, acessar a Instrução Normativa (IN)\footnote{\url{https://www.pucrs.br/politecnica/wp-content/uploads/sites/166/2019/06/Defesa-de-Semin\%C3\%A1rio-de-Andamento_280619.pdf}} que regula as etapas e processos necessários para realização da Defesa do Seminário de Andamento do Mestrado por alunos do Programa em consonância com o Estatuto e Regimento Geral da Universidade e com o Regulamento do Programa de Pós-Graduação em Ciência da Computação (PPGCC). A Instrução Normativa em questão, foi aprovada pela Comissão Coordenadora do Programa de Pós-Graduação em Ciência da Computação na reunião de nº. 07/2010 de 27/04/2010 e revisada na reunião nº 08/2019 de 26/06/2019.
+\end{abstract}
+
+%% Keywords.
+\keywords{lorem, ipsum, dolor, sit, amet}
+
+%%
+\maketitle
+
+\section{\label{sec:secao1}Introdução}
+O Seminário de Andamento (SA) é um texto em formato de artigo (de 10 a 14 páginas) apresentado
+pelo aluno de Mestrado para uma banca. Tipicamente, espera-se que aluno demonstre a evolução
+alcançada no desenvolvimento do seu trabalho desde a apresentação do Plano de Estudos e
+Pesquisa (PEP), sobretudo com a apresentação de resultados preliminares e de um cronograma de
+atividades até a conclusão do Mestrado.
+
+\section{Primeira seção}
+tempor invidunt~\cite{SKIENAC698} ut labore et dolore magna
+aliquyam erat sed diam voluptua at vero eos et accusam et justo
+duo dolores et ea rebum stet clita kasd gubergren no sea takimata
+sanctus est lorem ipsum dolor sit amet lorem
+ipsum~\cite{NAGAPACKING07}.
+
+tempor invidunt ut labore et dolore magna aliquyam erat sed diam
+voluptua at vero eos et accusam et justo duo dolores et ea
+rebum~\cite{CORMEMALGORITHMS01}. Ver Figura~\ref{fig:fig1}.
+
+% Um exemplo de figura
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\linewidth]{fig/exemplo}
+\caption%[This figure has a shorter caption now]%
+        {\label{fig:fig1}This is a figure with a very long
+    caption which looks ugly in the corresponding list of figures.
+    Fortunately, there is an optional parameter for a shorter
+    replacement of this monstrosity}%
+\end{figure}
+
+dolor sit~\cite{BENTLEYBC07} amet consetetur sadipscing elitr sed
+diam nonumy eirmod tempor invidunt ut labore et dolore magna
+aliquyam erat sed diam voluptua at vero~\cite{BRIANPL04}.
+
+lorem ipsum dolor sit $x\leq 2$  amet consetetur sadipscing elitr
+sed diam nonumy eirmod Seção~\ref{sec:secao1} tempor invidunt ut
+labore et dolore magna aliquyam erat sed diam voluptua at vero eos
+et accusam et justo duo dolores et ea rebum stet
+clita.~\cite{OLIVEIRAAPL08}
+
+% Um exemplo arbitrário de fórmula
+\begin{equation}\label{eq:eq1}
+    \intop_{0}^{\infty}{x^2 + \frac{\pi}{\sum_{i=0}^{n}{\frac{1}{i^2}}}}
+\end{equation}
+
+kasd gubergren no sea Equação~\eqref{eq:eq1} takimata sanctus est
+lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetetur
+sadipscing elitr sed diam nonumy eirmod.~\cite{PICCOLIAPL11}
+
+amet lorem ipsum dolor sit amet consetetur sadipscing elitr sed
+diam nonumy eirmod.~\cite{PICCOLIDM08}
+
+\subsection{Subseção}
+
+dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat sed diam
+voluptua at vero.
+
+lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+erat sed diam voluptua at vero eos et accusam et justo duo dolores
+et ea rebum stet clita kasd gubergren no sea takimata sanctus est
+lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetetur
+sadipscing elitr sed diam nonumy eirmod.
+
+tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at
+vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
+gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
+dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
+invidunt ut labore et dolore magna aliquyam erat sed diam voluptua
+at vero:
+
+\begin{itemize}
+   \item lorem
+   \item ipsum
+   \item dolor
+   \item sit
+   \item amet
+   \item consetetur
+\end{itemize}
+
+\subsubsection{Subsub}
+
+lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
+voluptua at vero eos et accusam et justo duo dolores et ea rebum
+stet clita.~\cite{GOLDENBERGAPL02}
+
+\begin{equation}\label{eq:apl}%
+    \sum_{i=0}^{\infty}x_i=\int_{0}^{\pi+2} f
+\end{equation}
+
+lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat sed diam
+voluptua at vero eos et accusam et justo duo dolores et ea rebum stet clita
+kasd gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem
+ipsum dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at
+vero eos et accusam et justo duo dolores et ea rebum stet clita kasd
+gubergren no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
+dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod tempor
+invidunt ut labore et dolore magna aliquyam erat sed diam voluptua at vero
+eos et accusam et justo duo dolores et ea rebum stet clita kasd gubergren no
+sea takimata sanctus est lorem ipsum dolor sit amet. A Tabela~\ref{tab:tab1} mostra o
+cronograma.~\cite{WIKIPIC09}
+
+\begin{table*}
+  \caption{Note que a legenda da tabela fica na parte de cima}
+  \label{tab:tab1}
+  \begin{tabular}{ccl}
+    \toprule
+    Command &A Number & Comments\\
+    \midrule
+    \texttt{{\char'134}author} & 100& Author \\
+    \texttt{{\char'134}table}& 300 & For tables\\
+    \texttt{{\char'134}table*}& 400& For wider tables\\
+    \bottomrule
+  \end{tabular}
+\end{table*}
+
+duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+molestie consequat vel illum dolore eu feugiat nulla facilisis at vero eros
+et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+delenit augue duis dolore te feugait nulla facilisi lorem ipsum dolor sit
+amet consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
+laoreet dolore magna aliquam erat volutpat.
+
+ut wisi enim ad minim veniam quis nostrud exerci tation ullamcorper suscipit
+lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure
+dolor in hendrerit in vulputate velit esse molestie consequat vel illum
+dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
+dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te
+feugait nulla facilisi.
+
+nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+doming id quod mazim placerat facer possim assum lorem ipsum dolor sit amet
+consectetuer adipiscing elit sed diam nonummy nibh euismod tincidunt ut
+laoreet dolore magna aliquam erat volutpat ut wisi enim ad minim veniam quis
+nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+commodo consequat.
+
+\section{Outra seção}
+
+lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+nonumy eirmod tempor invidunt~\cite{PLASSPAG81} ut labore et
+dolore magna aliquyam erat sed diam voluptua at vero eos et
+accusam et justo duo dolores et ea rebum stet clita kasd gubergren
+no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
+dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat sed diam
+voluptua at vero eos et accusam et justo duo dolores et ea rebum
+stet clita kasd gubergren no sea takimata sanctus est lorem ipsum
+dolor sit amet lorem ipsum.
+
+lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+nonumy eirmod tempor invidunt~\cite{PLASSPAG81} ut labore et
+dolore magna aliquyam erat sed diam voluptua at vero eos et
+accusam et justo duo dolores et ea rebum stet clita kasd gubergren
+no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
+dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat sed diam
+voluptua at vero eos et accusam et justo duo dolores et ea rebum
+stet clita kasd gubergren no sea takimata sanctus est lorem ipsum
+dolor sit amet lorem ipsum.
+
+\section{Another section}
+
+Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+erat sed diam voluptua at vero eos et accusam et justo duo dolores
+et ea rebum stet clita kasd gubergren no sea takimata sanctus est
+lorem ipsum dolor sit amet lorem.~\cite{XIAOAPL05}
+
+Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+erat sed diam voluptua at vero eos et accusam et justo duo dolores
+et ea rebum stet clita kasd gubergren no sea takimata sanctus est
+lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetetur
+sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore
+et dolore magna aliquyam erat sed diam voluptua at vero eos et
+accusam et justo duo dolores et ea rebum stet clita kasd gubergren
+no sea takimata sanctus est lorem ipsum dolor sit amet lorem ipsum
+dolor sit amet consetetur sadipscing elitr sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat sed diam
+voluptua at vero eos et accusam et justo duo dolores et ea rebum
+stet clita kasd gubergren no sea takimata sanctus est lorem ipsum
+dolor sit amet. Figura~\ref{fig:fig2}.
+
+% Mais uma figura
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\linewidth]{fig/exemplo1}
+\caption{\label{fig:fig2}This is another figure}
+\end{figure}
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+esse molestie consequat vel illum dolore eu feugiat nulla
+facilisis at vero eros et accumsan et iusto odio dignissim qui
+blandit praesent luptatum zzril delenit augue duis dolore te
+feugait nulla facilisi lorem ipsum dolor sit amet consectetuer
+adipiscing elit sed diam nonummy nibh euismod tincidunt ut laoreet
+dolore magna aliquam erat volutpat.
+
+Ut wisi enim ad minim veniam quis nostrud exerci tation
+ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+consequat duis autem vel eum iriure dolor in hendrerit in
+vulputate velit esse molestie consequat vel illum dolore eu
+feugiat nulla facilisis at vero eros et accumsan et iusto odio
+dignissim qui blandit praesent luptatum zzril delenit augue duis
+dolore te feugait nulla facilisi.
+
+Nam liber tempor cum soluta nobis eleifend option congue nihil
+imperdiet doming id quod mazim placerat facer possim assum lorem
+ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy
+nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+volutpat ut wisi enim ad minim veniam quis nostrud exerci tation
+ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+consequat.
+
+\subsection{Another subsection}
+
+lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+erat sed diam.~\cite{COFFMANPACKING98}
+
+\subsubsection{Another subsubsection}
+
+lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+nonumy. A seguir, a Tabela~\ref{tab:tab2} mostra algo mais
+simples.
+
+\begin{table}
+  \caption{Note que a legenda da tabela fica na parte de cima}
+  \label{tab:tab2}
+  \begin{tabular}{ccl}
+    \toprule
+    Non-English or Math&Frequency&Comments\\
+    \midrule
+    \O & 1 in 1,000& For Swedish names\\
+    $\pi$ & 1 in 5& Common in math\\
+    \$ & 4 in 5 & Used in business\\
+    $\Psi^2_1$ & 1 in 40,000& Unexplained usage\\
+  \bottomrule
+\end{tabular}
+\end{table}
+
+Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+erat sed diam voluptua at vero eos et accusam et justo duo dolores
+et ea rebum stet clita kasd gubergren no sea takimata sanctus est
+lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetetur
+sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore
+et dolore magna aliquyam erat sed diam voluptua at.
+
+Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+erat sed diam voluptua at vero eos et accusam et justo duo dolores
+et ea rebum stet clita kasd gubergren no sea takimata sanctus est
+lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetetur
+sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore
+et dolore magna aliquyam erat sed diam voluptua at.
+
+\section{CONCLUSION}
+
+Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+erat sed diam voluptua at vero eos et accusam et justo duo dolores
+et ea rebum stet clita kasd gubergren no sea takimata sanctus est
+lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetetur
+sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore
+et dolore magna aliquyam erat sed diam voluptua at.
+
+Lorem ipsum dolor sit amet consetetur sadipscing elitr sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+erat sed diam voluptua at vero eos et accusam et justo duo dolores
+et ea rebum stet clita kasd gubergren no sea takimata sanctus est
+lorem ipsum dolor sit amet lorem ipsum dolor sit amet consetetur
+sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore
+et dolore magna aliquyam erat sed diam voluptua at.
+
+%%
+%% Estilo de bibliografia e arquivo das referências
+\bibliographystyle{ACM-Reference-Format.bst}
+\bibliography{sample-base}
+
+%%
+%% Se você possui apêndices, insira aqui. 
+%% Se não tiver, comente ou exclua todo o restante do texto abaixo, ATÉ ANTES do comando "\end{document}".
+\appendix
+
+\section{Meu primeiro apêndice}
+
+\subsection{Primeira parte}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+malesuada, quam in pulvinar varius, metus nunc fermentum urna, id
+sollicitudin purus odio sit amet enim. Aliquam ullamcorper eu ipsum
+vel mollis. Curabitur quis dictum nisl. Phasellus vel semper risus, et
+lacinia dolor. Integer ultricies commodo sem nec semper.
+
+\subsection{Segunda parte}
+
+Etiam commodo feugiat nisl pulvinar pellentesque. Etiam auctor sodales
+ligula, non varius nibh pulvinar semper. Suspendisse nec lectus non
+ipsum convallis congue hendrerit vitae sapien. Donec at laoreet
+eros. Vivamus non purus placerat, scelerisque diam eu, cursus
+ante. Etiam aliquam tortor auctor efficitur mattis.
+
+\section{Meu segundo apêndice}
+
+Nam id fermentum dui. Suspendisse sagittis tortor a nulla mollis, in
+pulvinar ex pretium. Sed interdum orci quis metus euismod, et sagittis
+enim maximus. Vestibulum gravida massa ut felis suscipit
+congue. Quisque mattis elit a risus ultrices commodo venenatis eget
+dui. Etiam sagittis eleifend elementum.
+
+Nam interdum magna at lectus dignissim, ac dignissim lorem
+rhoncus. Maecenas eu arcu ac neque placerat aliquam. Nunc pulvinar
+massa et mattis lacinia.
+
+\end{document}
+\endinput
+%%
+%% Final do arquivo!

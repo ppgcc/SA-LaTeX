@@ -18,10 +18,16 @@ git clone https://github.com/ppgcc/SA-LaTeX.git
 
 ou faça download do código: <https://github.com/ppgcc/SA-LaTeX/archive/master.zip>.
 
+SA-Word
+========
+
+Também foi inserida um versão em .docx, para quem prefere utilizar o Word para escrita de seus trabalhos.
+
+Utilizar o arquivo: `Template_SA_PPGCC_(refs_numerica)[Word].docx`. 
 
 Atenção
 ==========
 
-Este template é uma sugestão de uso e não foi oficialmente elaborado por funcionários do PPGCC, sendo apenas uma iniciativa da Representação Discente atual.
+Estes templates são uma sugestão de uso e não foi oficialmente elaborado por funcionários do PPGCC, sendo apenas uma iniciativa da Representação Discente atual.
 
 Contribuições via forks/pull são muitos bem-vindas! Não deixe de contribuir quanto achar necessário.
